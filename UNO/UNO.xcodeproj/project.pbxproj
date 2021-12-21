@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD00FB162768BD95006CB93A /* EnumCardsTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD00FB152768BD95006CB93A /* EnumCardsTypes.swift */; };
+		BD00FB182768C584006CB93A /* CardsFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD00FB172768C584006CB93A /* CardsFunctions.swift */; };
+		BD0C73D2276EACB800BCB6CB /* CardElementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0C73D1276EACB800BCB6CB /* CardElementView.swift */; };
+		BD34199F2766B6E30034481B /* CardStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD34199E2766B6E30034481B /* CardStack.swift */; };
+		BD5BA87E276EBF3D0097B269 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5BA87D276EBF3D0097B269 /* LoginView.swift */; };
+		BD5BA934276ECE070097B269 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5BA91F276ECE070097B269 /* APIHelper.swift */; };
+		BD5BA935276ECE070097B269 /* AlamofireImplementations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5BA920276ECE070097B269 /* AlamofireImplementations.swift */; };
+		BD5BA936276ECE070097B269 /* JSONValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5BA921276ECE070097B269 /* JSONValue.swift */; };
+		BD5BA937276ECE070097B269 /* UserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5BA923276ECE070097B269 /* UserAPI.swift */; };
+		BD5BA938276ECE070097B269 /* LoginAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5BA924276ECE070097B269 /* LoginAPI.swift */; };
+		BD5BA939276ECE070097B269 /* GameAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5BA925276ECE070097B269 /* GameAPI.swift */; };
+		BD5BA93A276ECE070097B269 /* FileStorageAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5BA926276ECE070097B269 /* FileStorageAPI.swift */; };
+		BD5BA93B276ECE070097B269 /* CodableHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5BA927276ECE070097B269 /* CodableHelper.swift */; };
+		BD5BA93C276ECE070097B269 /* JSONEncodableEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5BA928276ECE070097B269 /* JSONEncodableEncoding.swift */; };
+		BD5BA93D276ECE070097B269 /* APIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5BA929276ECE070097B269 /* APIs.swift */; };
+		BD5BA93E276ECE070097B269 /* CreateGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5BA92B276ECE070097B269 /* CreateGame.swift */; };
+		BD5BA93F276ECE070097B269 /* LoginUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5BA92C276ECE070097B269 /* LoginUser.swift */; };
+		BD5BA940276ECE070097B269 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5BA92D276ECE070097B269 /* Game.swift */; };
+		BD5BA941276ECE070097B269 /* ChangeUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5BA92E276ECE070097B269 /* ChangeUserData.swift */; };
+		BD5BA942276ECE070097B269 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5BA92F276ECE070097B269 /* User.swift */; };
+		BD5BA943276ECE070097B269 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5BA930276ECE070097B269 /* Extensions.swift */; };
+		BD5BA944276ECE070097B269 /* JSONEncodingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5BA931276ECE070097B269 /* JSONEncodingHelper.swift */; };
+		BD5BA945276ECE070097B269 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5BA932276ECE070097B269 /* Models.swift */; };
+		BD5BA946276ECE070097B269 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5BA933276ECE070097B269 /* Configuration.swift */; };
+		BD5C0E662760149C0073CD53 /* CardsStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5C0E652760149C0073CD53 /* CardsStackView.swift */; };
+		BD6FED782767AE3C0034D4F6 /* DeckOfCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6FED772767AE3C0034D4F6 /* DeckOfCards.swift */; };
+		BD6FED7A2767AE610034D4F6 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6FED792767AE610034D4F6 /* CardModel.swift */; };
+		BD6FED7C2767AEDD0034D4F6 /* EnumCardsColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6FED7B2767AEDD0034D4F6 /* EnumCardsColors.swift */; };
+		BD6FED7E2767AEFC0034D4F6 /* EnumCardsValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6FED7D2767AEFC0034D4F6 /* EnumCardsValues.swift */; };
+		BD765F1B275FDBF300B1A1EC /* InvitationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD765F1A275FDBF300B1A1EC /* InvitationsView.swift */; };
+		BD765F1D275FE5DF00B1A1EC /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD765F1C275FE5DF00B1A1EC /* LoadingView.swift */; };
+		BD8AA333275D2F0C00EC1792 /* UNOApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8AA332275D2F0C00EC1792 /* UNOApp.swift */; };
+		BD8AA337275D2F0E00EC1792 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD8AA336275D2F0E00EC1792 /* Assets.xcassets */; };
+		BD8AA33A275D2F0E00EC1792 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD8AA339275D2F0E00EC1792 /* Preview Assets.xcassets */; };
+		BD8AA341275D465E00EC1792 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8AA340275D465E00EC1792 /* RegistrationView.swift */; };
+		BD8AA343275D594800EC1792 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8AA342275D594800EC1792 /* ViewExtensions.swift */; };
+		BD8AA345275D609000EC1792 /* SelectGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8AA344275D609000EC1792 /* SelectGameView.swift */; };
+		BD8AA347275D67BE00EC1792 /* SearchableListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8AA346275D67BE00EC1792 /* SearchableListView.swift */; };
+		BD8AA349275D7D9C00EC1792 /* UserRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8AA348275D7D9C00EC1792 /* UserRowView.swift */; };
+		BD8AA34F275D7F6000EC1792 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8AA34E275D7F6000EC1792 /* UserModel.swift */; };
+		BDCD3113275FF00100918501 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCD3112275FF00100918501 /* GameView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD00FB152768BD95006CB93A /* EnumCardsTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumCardsTypes.swift; sourceTree = "<group>"; };
+		BD00FB172768C584006CB93A /* CardsFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsFunctions.swift; sourceTree = "<group>"; };
+		BD0C73D1276EACB800BCB6CB /* CardElementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardElementView.swift; sourceTree = "<group>"; };
+		BD34199E2766B6E30034481B /* CardStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStack.swift; sourceTree = "<group>"; };
+		BD5BA87D276EBF3D0097B269 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		BD5BA91F276ECE070097B269 /* APIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
+		BD5BA920276ECE070097B269 /* AlamofireImplementations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireImplementations.swift; sourceTree = "<group>"; };
+		BD5BA921276ECE070097B269 /* JSONValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONValue.swift; sourceTree = "<group>"; };
+		BD5BA923276ECE070097B269 /* UserAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAPI.swift; sourceTree = "<group>"; };
+		BD5BA924276ECE070097B269 /* LoginAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginAPI.swift; sourceTree = "<group>"; };
+		BD5BA925276ECE070097B269 /* GameAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameAPI.swift; sourceTree = "<group>"; };
+		BD5BA926276ECE070097B269 /* FileStorageAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileStorageAPI.swift; sourceTree = "<group>"; };
+		BD5BA927276ECE070097B269 /* CodableHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodableHelper.swift; sourceTree = "<group>"; };
+		BD5BA928276ECE070097B269 /* JSONEncodableEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONEncodableEncoding.swift; sourceTree = "<group>"; };
+		BD5BA929276ECE070097B269 /* APIs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIs.swift; sourceTree = "<group>"; };
+		BD5BA92B276ECE070097B269 /* CreateGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateGame.swift; sourceTree = "<group>"; };
+		BD5BA92C276ECE070097B269 /* LoginUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginUser.swift; sourceTree = "<group>"; };
+		BD5BA92D276ECE070097B269 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		BD5BA92E276ECE070097B269 /* ChangeUserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeUserData.swift; sourceTree = "<group>"; };
+		BD5BA92F276ECE070097B269 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		BD5BA930276ECE070097B269 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		BD5BA931276ECE070097B269 /* JSONEncodingHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONEncodingHelper.swift; sourceTree = "<group>"; };
+		BD5BA932276ECE070097B269 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		BD5BA933276ECE070097B269 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		BD5C0E652760149C0073CD53 /* CardsStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsStackView.swift; sourceTree = "<group>"; };
+		BD6FED772767AE3C0034D4F6 /* DeckOfCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckOfCards.swift; sourceTree = "<group>"; };
+		BD6FED792767AE610034D4F6 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		BD6FED7B2767AEDD0034D4F6 /* EnumCardsColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumCardsColors.swift; sourceTree = "<group>"; };
+		BD6FED7D2767AEFC0034D4F6 /* EnumCardsValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumCardsValues.swift; sourceTree = "<group>"; };
+		BD765F1A275FDBF300B1A1EC /* InvitationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitationsView.swift; sourceTree = "<group>"; };
+		BD765F1C275FE5DF00B1A1EC /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		BD8AA32F275D2F0C00EC1792 /* UNO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UNO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD8AA332275D2F0C00EC1792 /* UNOApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNOApp.swift; sourceTree = "<group>"; };
+		BD8AA336275D2F0E00EC1792 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD8AA339275D2F0E00EC1792 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD8AA340275D465E00EC1792 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		BD8AA342275D594800EC1792 /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		BD8AA344275D609000EC1792 /* SelectGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectGameView.swift; sourceTree = "<group>"; };
+		BD8AA346275D67BE00EC1792 /* SearchableListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableListView.swift; sourceTree = "<group>"; };
+		BD8AA348275D7D9C00EC1792 /* UserRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRowView.swift; sourceTree = "<group>"; };
+		BD8AA34E275D7F6000EC1792 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserModel.swift; path = Models/UserModel.swift; sourceTree = "<group>"; };
+		BDCD3112275FF00100918501 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD8AA32C275D2F0C00EC1792 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD5BA87F276EC02D0097B269 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD5BA91E276ECE070097B269 /* Swaggers */ = {
+			isa = PBXGroup;
+			children = (
+				BD5BA91F276ECE070097B269 /* APIHelper.swift */,
+				BD5BA920276ECE070097B269 /* AlamofireImplementations.swift */,
+				BD5BA921276ECE070097B269 /* JSONValue.swift */,
+				BD5BA922276ECE070097B269 /* APIs */,
+				BD5BA927276ECE070097B269 /* CodableHelper.swift */,
+				BD5BA928276ECE070097B269 /* JSONEncodableEncoding.swift */,
+				BD5BA929276ECE070097B269 /* APIs.swift */,
+				BD5BA92A276ECE070097B269 /* Models */,
+				BD5BA930276ECE070097B269 /* Extensions.swift */,
+				BD5BA931276ECE070097B269 /* JSONEncodingHelper.swift */,
+				BD5BA932276ECE070097B269 /* Models.swift */,
+				BD5BA933276ECE070097B269 /* Configuration.swift */,
+			);
+			name = Swaggers;
+			path = "../../swift5-client-generated/SwaggerClient/Classes/Swaggers";
+			sourceTree = "<group>";
+		};
+		BD5BA922276ECE070097B269 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				BD5BA923276ECE070097B269 /* UserAPI.swift */,
+				BD5BA924276ECE070097B269 /* LoginAPI.swift */,
+				BD5BA925276ECE070097B269 /* GameAPI.swift */,
+				BD5BA926276ECE070097B269 /* FileStorageAPI.swift */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		BD5BA92A276ECE070097B269 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BD5BA92B276ECE070097B269 /* CreateGame.swift */,
+				BD5BA92C276ECE070097B269 /* LoginUser.swift */,
+				BD5BA92D276ECE070097B269 /* Game.swift */,
+				BD5BA92E276ECE070097B269 /* ChangeUserData.swift */,
+				BD5BA92F276ECE070097B269 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BD8AA326275D2F0C00EC1792 = {
+			isa = PBXGroup;
+			children = (
+				BD8AA331275D2F0C00EC1792 /* UNO */,
+				BD8AA330275D2F0C00EC1792 /* Products */,
+				BD5BA87F276EC02D0097B269 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BD8AA330275D2F0C00EC1792 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD8AA32F275D2F0C00EC1792 /* UNO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD8AA331275D2F0C00EC1792 /* UNO */ = {
+			isa = PBXGroup;
+			children = (
+				BD5BA91E276ECE070097B269 /* Swaggers */,
+				BD8AA332275D2F0C00EC1792 /* UNOApp.swift */,
+				BD8AA342275D594800EC1792 /* ViewExtensions.swift */,
+				BD00FB172768C584006CB93A /* CardsFunctions.swift */,
+				BD8AA340275D465E00EC1792 /* RegistrationView.swift */,
+				BDCD3112275FF00100918501 /* GameView.swift */,
+				BD5BA87D276EBF3D0097B269 /* LoginView.swift */,
+				BD8AA344275D609000EC1792 /* SelectGameView.swift */,
+				BD765F1A275FDBF300B1A1EC /* InvitationsView.swift */,
+				BD5C0E652760149C0073CD53 /* CardsStackView.swift */,
+				BD765F1C275FE5DF00B1A1EC /* LoadingView.swift */,
+				BD8AA346275D67BE00EC1792 /* SearchableListView.swift */,
+				BD0C73D1276EACB800BCB6CB /* CardElementView.swift */,
+				BD8AA348275D7D9C00EC1792 /* UserRowView.swift */,
+				BD8AA336275D2F0E00EC1792 /* Assets.xcassets */,
+				BD8AA338275D2F0E00EC1792 /* Preview Content */,
+				BD8AA34E275D7F6000EC1792 /* UserModel.swift */,
+				BD34199E2766B6E30034481B /* CardStack.swift */,
+				BD6FED792767AE610034D4F6 /* CardModel.swift */,
+				BD6FED772767AE3C0034D4F6 /* DeckOfCards.swift */,
+				BD6FED7B2767AEDD0034D4F6 /* EnumCardsColors.swift */,
+				BD6FED7D2767AEFC0034D4F6 /* EnumCardsValues.swift */,
+				BD00FB152768BD95006CB93A /* EnumCardsTypes.swift */,
+			);
+			path = UNO;
+			sourceTree = "<group>";
+		};
+		BD8AA338275D2F0E00EC1792 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BD8AA339275D2F0E00EC1792 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD8AA32E275D2F0C00EC1792 /* UNO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD8AA33D275D2F0E00EC1792 /* Build configuration list for PBXNativeTarget "UNO" */;
+			buildPhases = (
+				BD8AA32B275D2F0C00EC1792 /* Sources */,
+				BD8AA32C275D2F0C00EC1792 /* Frameworks */,
+				BD8AA32D275D2F0C00EC1792 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UNO;
+			productName = UNO;
+			productReference = BD8AA32F275D2F0C00EC1792 /* UNO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD8AA327275D2F0C00EC1792 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					BD8AA32E275D2F0C00EC1792 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = BD8AA32A275D2F0C00EC1792 /* Build configuration list for PBXProject "UNO" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD8AA326275D2F0C00EC1792;
+			productRefGroup = BD8AA330275D2F0C00EC1792 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD8AA32E275D2F0C00EC1792 /* UNO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD8AA32D275D2F0C00EC1792 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD8AA33A275D2F0E00EC1792 /* Preview Assets.xcassets in Resources */,
+				BD8AA337275D2F0E00EC1792 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD8AA32B275D2F0C00EC1792 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5BA934276ECE070097B269 /* APIHelper.swift in Sources */,
+				BD765F1B275FDBF300B1A1EC /* InvitationsView.swift in Sources */,
+				BD5BA93F276ECE070097B269 /* LoginUser.swift in Sources */,
+				BD5BA944276ECE070097B269 /* JSONEncodingHelper.swift in Sources */,
+				BD5C0E662760149C0073CD53 /* CardsStackView.swift in Sources */,
+				BD8AA349275D7D9C00EC1792 /* UserRowView.swift in Sources */,
+				BD5BA93C276ECE070097B269 /* JSONEncodableEncoding.swift in Sources */,
+				BD5BA936276ECE070097B269 /* JSONValue.swift in Sources */,
+				BD00FB182768C584006CB93A /* CardsFunctions.swift in Sources */,
+				BD8AA347275D67BE00EC1792 /* SearchableListView.swift in Sources */,
+				BD6FED7C2767AEDD0034D4F6 /* EnumCardsColors.swift in Sources */,
+				BD5BA93B276ECE070097B269 /* CodableHelper.swift in Sources */,
+				BD765F1D275FE5DF00B1A1EC /* LoadingView.swift in Sources */,
+				BD8AA341275D465E00EC1792 /* RegistrationView.swift in Sources */,
+				BD5BA942276ECE070097B269 /* User.swift in Sources */,
+				BD5BA945276ECE070097B269 /* Models.swift in Sources */,
+				BDCD3113275FF00100918501 /* GameView.swift in Sources */,
+				BD6FED7A2767AE610034D4F6 /* CardModel.swift in Sources */,
+				BD34199F2766B6E30034481B /* CardStack.swift in Sources */,
+				BD5BA941276ECE070097B269 /* ChangeUserData.swift in Sources */,
+				BD6FED782767AE3C0034D4F6 /* DeckOfCards.swift in Sources */,
+				BD5BA943276ECE070097B269 /* Extensions.swift in Sources */,
+				BD8AA34F275D7F6000EC1792 /* UserModel.swift in Sources */,
+				BD8AA343275D594800EC1792 /* ViewExtensions.swift in Sources */,
+				BD0C73D2276EACB800BCB6CB /* CardElementView.swift in Sources */,
+				BD5BA938276ECE070097B269 /* LoginAPI.swift in Sources */,
+				BD5BA937276ECE070097B269 /* UserAPI.swift in Sources */,
+				BD5BA87E276EBF3D0097B269 /* LoginView.swift in Sources */,
+				BD6FED7E2767AEFC0034D4F6 /* EnumCardsValues.swift in Sources */,
+				BD5BA93E276ECE070097B269 /* CreateGame.swift in Sources */,
+				BD8AA333275D2F0C00EC1792 /* UNOApp.swift in Sources */,
+				BD5BA939276ECE070097B269 /* GameAPI.swift in Sources */,
+				BD00FB162768BD95006CB93A /* EnumCardsTypes.swift in Sources */,
+				BD5BA946276ECE070097B269 /* Configuration.swift in Sources */,
+				BD5BA940276ECE070097B269 /* Game.swift in Sources */,
+				BD5BA935276ECE070097B269 /* AlamofireImplementations.swift in Sources */,
+				BD8AA345275D609000EC1792 /* SelectGameView.swift in Sources */,
+				BD5BA93D276ECE070097B269 /* APIs.swift in Sources */,
+				BD5BA93A276ECE070097B269 /* FileStorageAPI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BD8AA33B275D2F0E00EC1792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD8AA33C275D2F0E00EC1792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD8AA33E275D2F0E00EC1792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UNO/Preview Content\"";
+				DEVELOPMENT_TEAM = 685JA435L4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AF.UNO;
+				PRODUCT_NAME = UNO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD8AA33F275D2F0E00EC1792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UNO/Preview Content\"";
+				DEVELOPMENT_TEAM = 685JA435L4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AF.UNO;
+				PRODUCT_NAME = UNO1;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD8AA32A275D2F0C00EC1792 /* Build configuration list for PBXProject "UNO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD8AA33B275D2F0E00EC1792 /* Debug */,
+				BD8AA33C275D2F0E00EC1792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD8AA33D275D2F0E00EC1792 /* Build configuration list for PBXNativeTarget "UNO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD8AA33E275D2F0E00EC1792 /* Debug */,
+				BD8AA33F275D2F0E00EC1792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD8AA327275D2F0C00EC1792 /* Project object */;
+}
